@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Project {
     private ArrayList<Task> tasks = new ArrayList<>();
+    private ArrayList<TeamMember> members = new ArrayList<>();
     private String name;
     private String description;
     private String startDate, endDate;
@@ -17,35 +18,15 @@ public class Project {
         tasks.add(task);
     }
 
-    public String getName() {
-        return name;
+    public void removeTask(Task task) {
+        tasks.remove(task);
+    }
+    
+    public void addMember(TeamMember member) {
+        members.add(member);
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getStartDate() {
-        return startDate;
-    }
-
-    public void setStartDate(String startDate) {
-        this.startDate = startDate;
-    }
-
-    public String getEndDate() {
-        return endDate;
-    }
-
-    public void setEndDate(String endDate) {
-        this.endDate = endDate;
+    public void removeMember(TeamMember member) {
+        members.add(member);
     }
 }

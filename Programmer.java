@@ -1,5 +1,5 @@
-public class ProjectManager extends TeamMember implements Meetable {
-    public ProjectManager(String name, String emailAddress) {
+public class Programmer extends TeamMember implements Meetable {
+    public Programmer(String name, String emailAddress) {
         super(name, emailAddress);
     }
 
