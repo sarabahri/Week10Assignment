@@ -4,7 +4,7 @@ public class Programmer extends TeamMember implements Meetable {
     }
 
     @Override
-    public void attendMeetring() {
+    public void attendMeeting() {
     }
 
     @Override

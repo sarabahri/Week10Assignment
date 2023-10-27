@@ -1,4 +1,4 @@
 public interface Meetable {
-    void attendMeetring();
+    void attendMeeting();
     void takeNotes();        
 }
